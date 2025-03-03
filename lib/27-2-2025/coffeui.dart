@@ -10,18 +10,21 @@ class Coffeui extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            top: 35,
+            top: 20,
             left: 30,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   "Location",
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                 ),
                 Text(
                   "Barakahu , Islamabad",
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+                SizedBox(
+                  height: 20,
                 ),
                 Positioned(
                   top: 35,
@@ -124,7 +127,7 @@ class Coffeui extends StatelessWidget {
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  "2.50",
+                  "\$2.50",
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
@@ -153,7 +156,7 @@ class Coffeui extends StatelessWidget {
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  "5.50",
+                  "\$5.50",
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
@@ -185,7 +188,7 @@ class Coffeui extends StatelessWidget {
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  "1.50",
+                  "\$1.50",
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
@@ -193,13 +196,13 @@ class Coffeui extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 100,
-            left: 165,
+            top: 130,
+            left: 150,
             child: Column(
               children: [
                 Container(
-                  height: 200,
-                  width: 200,
+                  height: 180,
+                  width: 180,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage("asset/images/pngtreecoffe.png"),
